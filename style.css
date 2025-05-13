@@ -1,0 +1,60 @@
+/* Сховати скролбар */ 
+* {scrollbar-width: none;-ms-overflow-style: none;}
+*::-webkit-scrollbar {display: none;}
+
+/* Посилання */
+a {color: #007FFF;text-decoration: none;}
+a:hover {color: #FFFFFF;text-decoration: none;}
+
+/* Головне */
+body {background-color: black;color: white;}
+p {margin: 14px 0;}
+ul {padding: 14px 0 0 14px;}
+* {
+	font-family: Courier New;
+	font-weight: normal;
+	font-size: 11px;
+	margin: 0px;
+}
+div {
+	border: 1px solid;
+	margin: 0 auto;
+	width: 542px;
+	padding: 0 14px 14px;
+}
+.row-block {
+	border: revert;
+	margin: 0;
+	width: auto;
+	padding: 0;
+	display: flex;
+}
+.down-block {
+	border: revert;
+	margin: 0;
+	width: auto;
+	padding: 0 0 0 14px;
+}
+
+/* Таблиця */
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+td {
+	text-align: center;
+	border: 1px solid;
+	padding: 8px 0 11px;
+}
+
+/* Аудіо */
+.audio-block {
+	border: revert;
+	margin: 0;
+	width: 240px;
+	padding: 14px 0 0;
+}
+audio {
+	height: 28px;
+	width: 240px;
+}
