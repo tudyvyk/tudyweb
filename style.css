@@ -1,60 +1,35 @@
-/* Сховати скролбар */ 
+/* Головне */
 * {scrollbar-width: none;-ms-overflow-style: none;}
 *::-webkit-scrollbar {display: none;}
-
-/* Посилання */
+body {
+	background-color: black;
+	color: white;
+	margin: 0;
+	font-family: "Courier New";
+	font-size: 14px;
+}
+p {margin: 14px 0 0;}
+p.p-tiny {font-size: 11px;margin: 0;}
+ul {margin: 14px 0 0;padding: 0 0 0 28px;font-size: 11px;}
+img {display: block;}
 a {color: #007FFF;text-decoration: none;}
-a:hover {color: #FFFFFF;text-decoration: none;}
+a:hover {color: white;text-decoration: none;}
 
-/* Головне */
-body {background-color: black;color: white;}
-p {margin: 14px 0;}
-ul {padding: 14px 0 0 14px;}
-* {
-	font-family: Courier New;
-	font-weight: normal;
-	font-size: 11px;
-	margin: 0px;
-}
-div {
+/* Коробки */
+div {}
+div.row-box {display: flex;margin: 14px 0 0;}
+div.main-box {
 	border: 1px solid;
-	margin: 0 auto;
-	width: 542px;
+	margin: 14px auto 0;
 	padding: 0 14px 14px;
+	width: 466px;
 }
-.row-block {
-	border: revert;
-	margin: 0;
-	width: auto;
-	padding: 0;
-	display: flex;
-}
-.down-block {
-	border: revert;
-	margin: 0;
-	width: auto;
-	padding: 0 0 0 14px;
-}
-
-/* Таблиця */
-table {
-	width: 100%;
-	table-layout: fixed;
-}
-td {
+a.a-box {
+	border: 1px solid white;
+	margin: 1px;
+	flex: 1;
+	font-size: 11px;
 	text-align: center;
-	border: 1px solid;
-	padding: 8px 0 11px;
+	padding: 14px;
 }
-
-/* Аудіо */
-.audio-block {
-	border: revert;
-	margin: 0;
-	width: 240px;
-	padding: 14px 0 0;
-}
-audio {
-	height: 28px;
-	width: 240px;
-}
+a.a-box:hover {background-color: #007FFF;}
