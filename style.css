@@ -12,7 +12,7 @@ p {margin: 14px 0 0;}
 p.p-tiny {font-size: 11px;margin: 0;}
 ul {margin: 14px 0 0;padding: 0 0 0 28px;font-size: 11px;}
 audio {margin: 14px 0 0;height: 28px;}
-img {display: inline-block;}
+img {display: block;}
 a {color: #007FFF;text-decoration: none;}
 a:hover {color: white;text-decoration: none;}
 
