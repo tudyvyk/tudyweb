@@ -7,6 +7,11 @@ body {
 	margin: 0;
 	font-family: "Courier New";
 	font-size: 14px;
+	background-image: url('image/shapka.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
 }
 p {margin: 14px 0 0;}
 p.p-tiny {font-size: 11px;margin: 0;}
@@ -17,7 +22,9 @@ a {color: #007FFF;text-decoration: none;}
 a:hover {color: white;text-decoration: none;}
 
 /* Коробки */
-div {}
+div {
+	background-color: black;
+}
 div.row-box {display: flex;margin: 14px 0 0;}
 div.main-box {
 	border: 1px solid;
